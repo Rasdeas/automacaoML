@@ -13,7 +13,7 @@ pip install openpyxl
 ### Webdriver
 O webdriver utilizado foi o chromedriver, que deve ter a mesma versão do navegador Chrome utilizado.
 
-O chromedriver pode ser baixo <a href="https://chromedriver.chromium.org/downloads">aqui</a> neste site. <br>
+O chromedriver pode ser baixo <a href="https://chromedriver.chromium.org/downloads" target="_blank">aqui</a> neste site. <br>
 Basta buscar a versão do seu navegador e baixar. <br>
 
 Após baixar, basta por o execultável na mesma pasta onde o código da automação vai estar. <br>

@@ -86,7 +86,7 @@ class automation:
         contadorLista = 0
         while contadorLista < len(self.listaNomeProduto):
             if self.produto[f'A{contadorCelula + 1}'].value != None:
-                print(f"Célula ja ocupada com {self.produto[f'A{contadorCelula + 1}']}")
+                print(f"Célula já ocupada com {self.produto[f'A{contadorCelula + 1}']}")
                 
                 contadorCelula+=1
             else:
@@ -100,7 +100,7 @@ class automation:
         verificador = 0
         while verificador < 1:
             if self.cotacao[f'A{contadorCtCelula + 1}'].value != None:
-                    print(f"Célula ja ocupada com {self.cotacao[f'A{contadorCtCelula + 1}']}")
+                    print(f"Célula já ocupada com {self.cotacao[f'A{contadorCtCelula + 1}']}")
                     
                     contadorCtCelula+=1
             else:
