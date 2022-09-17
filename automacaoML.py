@@ -110,6 +110,7 @@ class automation:
                 
                 verificador+=1
         
+        
         self.planilha.save('produtos_cotacao.xlsx')
         
 autoML = automation()
